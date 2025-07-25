@@ -7,7 +7,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    /* color: #333; */
 }
 
 nav {
@@ -29,6 +28,35 @@ nav {
 nav a {
     text-decoration: none;
     color: #000;
+}
+
+.container{
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 10rem 20rem;
+}
+
+/* the google image */
+.image {
+    background-color: #ccc015;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 200px;
+    height: 100px;
+}
+
+.inputField, form {
+    /* position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%; */
+    padding: 1rem;
+    text-align: center;
+    background: pink;
+}
+
+.buttons {
+    display: none;
 }
 /* input[type="text"] {
       width: 50%;
